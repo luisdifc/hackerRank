@@ -1,9 +1,3 @@
-import math
-import os
-import random
-import re
-import sys
-
 #
 # Complete the 'solve' function below.
 #
@@ -19,6 +13,7 @@ def solve(meal_cost, tip_percent, tax_percent):
     tax_cost = tax_percent * 0.01 * meal_cost
     total_cost = meal_cost + tip_cost + tax_cost
     return round(total_cost)
+
 
 if __name__ == '__main__':
     meal_cost = float(input().strip())
